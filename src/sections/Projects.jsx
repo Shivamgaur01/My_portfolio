@@ -6,21 +6,21 @@ const projects = [
   {
     title: "Netflix Clone with Firebase Auth",
     dexcription: "Built a functional Netflix-style clone using React, featuring Firebase Authentication for secure signup/ login flows.",
-    image: "/public/projects/project-1.png",
+    image: "public/project-1.png",
     tags: ["React", "Firebase-Auth", "Tailwind CSS", "JavaScript"],
     github: "https://github.com/Shivamgaur01/Netflix-clone-with-firebase-auth"
   },
   {
     title: "Movie Explorer",
     dexcription: " Developed a movie discovery web app using React, integrating external APIs to fetch and display movie data dynamically.",
-    image: "/public/projects/project-3.png",
+    image: "/public/project-3.png",
     tags: ["React", "Tailwind CSS", "JavaScript", "TMDB_API"],
     github: "https://github.com/Shivamgaur01/movie_explorer"
   },
   {
     title: "Expense trekker",
     dexcription: "Created a personal finance tracking application with React, enabling users to add, categorize, and monitor expenses.",
-    image: "/public/projects/project-2.png",
+    image: "/public/project-2.png",
     tags: ["React", "Bootstrap", "JavaScript"],
     github: "https://github.com/Shivamgaur01/Expense-trekker"
   },
