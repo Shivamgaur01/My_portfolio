@@ -83,7 +83,7 @@ const Hero = () => {
             {/* CTA  */}
             <div className='flex flex-wrap gap-4 animate-fade-in animation-delay-400'>
               <Button size='lg' href="#contact">Contact Me <ArrowRight className='w-5 h-5' /></Button>
-              <a href="/public/MYLATESTWEBDEVRESUME.pdf" download>
+              <a href="/MYLATESTWEBDEVRESUME.pdf" download >
                 <Animatedborderbutton>
                   <Download className="w-5 h-5" />
                   Download CV
@@ -101,7 +101,7 @@ const Hero = () => {
                   { icon: Instagram, href: "https://www.instagram.com/shivamgaur462/" },
 
                 ].map((social, index) => (
-                  <a target='blank' className='p-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all duration-300' key={index} href={social.href}>{<social.icon className='w-5 h-5' />}</a>
+                  <a target='_blank' rel="noopener noreferrer" className='p-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all duration-300' key={index} href={social.href}>{<social.icon className='w-5 h-5' />}</a>
                 ))
               }
             </div>
