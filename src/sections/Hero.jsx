@@ -83,7 +83,7 @@ const Hero = () => {
             {/* CTA  */}
             <div className='flex flex-wrap gap-4 animate-fade-in animation-delay-400'>
               <Button size='lg' href="#contact">Contact Me <ArrowRight className='w-5 h-5' /></Button>
-              <a href="/MYLATESTWEBDEVRESUME.pdf" download >
+              <a href="/MylatestResumeSE.pdf" download >
                 <Animatedborderbutton>
                   <Download className="w-5 h-5" />
                   Download CV
