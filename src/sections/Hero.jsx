@@ -22,6 +22,8 @@ const skills = [
   "GitHub actions",
   "Figma",
   "Vercel",
+  "PHP",
+  "Laravel"
 
 ]
 
@@ -61,8 +63,8 @@ const Hero = () => {
           <div className='space-y-8'>
             <div className='animate-fade-in'>
               <span className='inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary'>
-                <span className='w-2 h-2 bg-primary rounded-full animate-pulse' />Full-Stack Developer <span className='w-2 h-2 rounded-full bg-primary' /> MERN Stack specialist
-              </span>
+                <span className='w-2 h-2 bg-primary rounded-full animate-pulse' />Full-Stack Developer <span className='w-2 h-2 rounded-full bg-primary' /> MERN Stack specialist <span className='w-2 h-2 rounded-full bg-primary' /> Software Engineer
+              </span> 
             </div>
 
             {/* headline  */}
@@ -112,7 +114,7 @@ const Hero = () => {
             <div className='relative max-w-md mx-auto '>
               <div className='absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse' />
               <div className='relative glass rounded-3xl p-2 glow-border'>
-                <img src="/my-image.jpeg" alt="my photo" className='w-full aspect-[4/5] object-cover rounded-2xl' />
+                <img src="/myphotored.jpg" alt="my photo" className='w-full aspect-[4/5] object-cover rounded-2xl' />
 
                 {/* floating badge  */}
                 <div className='absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float'>
@@ -125,8 +127,8 @@ const Hero = () => {
 
                 {/* stats badge  */}
                 <div className='absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500'>
-                  <div className='text-2xl font-bold text-primary '>6+</div>
-                  <div className='text-xs text-muted-foreground'>Months Exp.</div>
+                  <div className='text-2xl font-bold text-primary '>1+</div>
+                  <div className='text-xs text-muted-foreground'>Year Exp.</div>
                 </div>
               </div>
             </div>
